@@ -1,16 +1,19 @@
-﻿l_english:
+l_english:
  edict_auto_build:0 "自动升级"
- edict_auto_build_desc:0 "启用这个法令会使你的建筑物自动升级."
-
- edict_auto_build_2:0 "自动改善影响力成本"
- edict_auto_build_desc_2:0 "启用这个法令会使你的建筑物需要的影响力自动改善."
-
- edict_auto_build_3:0 "自动建筑"
- edict_auto_build_desc_3:0 "启用这个法令后在有资源的情况下会自动建筑."
-
+ edict_auto_build_desc:0 "启用这个法令会使你的建筑物自动升级(除了实验室与需要影响力的建筑)."
+ 
+ edict_auto_build_2:0 "自动建造需要影响力建筑"
+ edict_auto_build_2_desc:0 "启用这个法令会让需要影响力的建筑物自动建造."
+ 
+ edict_auto_build_3:0  "自动建造新的建筑"
+ edict_auto_build_3_desc:0 "在有能源或者矿物的土地上将自动造电厂与矿物，在有科学资源的土地上将自动建造基础实验室."
+ 
  edict_auto_build_4:0 "自动奴役"
- edict_auto_build_desc_4:0 "启用这个法令后在矿场与农场的人口将会被自动奴役."
-
+ edict_auto_build_4_desc:0 "将会自动奴役在矿场、农场、电厂的人口."
+ 
+ edict_auto_build_4_1:0 "外星人自动奴役!"
+ edict_auto_build_4_1_desc:0 "将会自动奴役全部的外星人（包括已经不属于原始价值观的原始种族）."
+ 
  edict_auto_build_5:0 "自动改进实验室"
  edict_auto_build_5_desc:0 "启用这个法令之后，某一领域的研究速度将得到提升." 
  
@@ -18,7 +21,34 @@
  edict_auto_build_6_desc:0 "启用这个法令后，所有实验室都会根据地格资源类型提升科研." 
  
  edict_auto_build_cost:0 "保持资源储备"
- edict_auto_build_cost_desc:0 "While active edict, all the buildings and improvements will occur if you have 1000 minerals or 250 influence, if required."
+ edict_auto_build_cost_desc:0 "拥有1000矿物或者250影响力以上，才会自动进行建筑与升级."
  
- edict_no_sector:0 "更多的直辖行星"
- edict_no_sector_desc:0 "启用这个法令后，直辖行星上限提高."
+ edict_no_sector:0 "星区不消耗"
+ edict_no_sector_desc:0 "启用这个法令后，星区不消耗."
+ 
+ edict_auto_build_7_1:0 "能源优先"
+ edict_auto_build_7_1_desc:0 "启用这个法令后，只会自动建造发电厂." 
+ 
+ edict_auto_build_7_2:0 "工业优先"
+ edict_auto_build_7_2_desc:0 "启用这个法令后，只会自动建造矿场." 
+
+ edict_auto_build_7_3:0 "科学优先"
+ edict_auto_build_7_3_desc:0 "启用这个法令后，只会自动建造实验室." 
+ 
+ edict_auto_build_7_4:0 "条件式科学优先"
+ edict_auto_build_7_4_desc:0 "启用这个法令后，会持续自动建造1个发电厂后会接续建造4个实验室." 
+ 
+ #edict_auto_build_7_5:0 ""
+ #edict_auto_build_7_5_desc:0 "" 
+ 
+ edict_auto_build_7_6:0 "平衡优先"
+ edict_auto_build_7_6_desc:0 "启用这个法令后，会持续自动使用1：1：1的方式建造三样建筑（矿场－发电厂－实验室）" 
+ 
+ edict_auto_build_7_7:0 "能源/科学优先"
+ edict_auto_build_7_7_desc:0 "启用这个法令后，会持续自动建造1个电厂与1个实验室." 
+ 
+ edict_auto_build_8:0 "自动建造星际诊所"
+ edict_auto_build_8_desc:0 "启用这个法令后，会自动寻找有2格食物的空地建造星际诊所，或者找1格食物和没有矿物的空地建造诊所，或者单纯空地建造诊所." 
+ 
+ edict_auto_build_4_2:0 "让奴隶到矿场!"
+ edict_auto_build_4_2_desc:0 "启用这个法令后，会自动在有奴隶人口的星球上建造矿场给奴隶，毕竟谁需要聪明的奴隶？" 
